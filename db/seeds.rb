@@ -9,20 +9,20 @@ Attendant.destroy_all
 puts "Creating houses..."
 tims_family = House.create(name: "tims family")
 IT_firm = House.create(name: "IT firm")
-canes_farm = House.create(name: "surbodinate staff")
+canes_farm = House.create(name: "canes farm")
 jakes_house = House.create(name: "jakes house")
 
 puts "Creating attendants..."
-allan_kush = Attendant.create(username: "Allan Kush", salary:"Salary KSH 50000",job:"Cashier", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
-jane_lee = Attendant.create(username: "Jane Lee", salary:"Salary KSH 30000", job:"Facilitator", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s" )
-cindy_amor = Attendant.create(username: "Cindy Amor", salary:"Salary KSH 20000", job:"Cook", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
-cathy_lorna = Attendant.create(username: "Cathy Lorna", salary:"Salary KSH 60000", job:"Database Management", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
+allan_kush = Attendant.create(username: "Allan Kush", salary:"Salary KSH 50000",job:"Gardener", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
+jane_lee = Attendant.create(username: "Jane Lee", salary:"Salary KSH 30000", job:"Cook", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s" )
+cindy_amor = Attendant.create(username: "Cindy Amor", salary:"Salary KSH 20000", job:"Nanny", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
+cathy_lorna = Attendant.create(username: "Cathy Lorna", salary:"Salary KSH 60000", job:"Cleaner", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
 
 puts "Creating roles..."
 
-Role.create( salary: "Salary KSH 50000",username: "Allan", house_id:finance_section.id, attendant_id:allan_kush.id)
-Role.create( salary: "Salary KSH 30000",username: "Jane", house_id:general_staff.id, attendant_id:jane_lee.id)
-Role.create(salary: "Salary KSH 20000",username: "Cindy", house_id:_staff.id, attendant_id:cindy_amor.id)
+Role.create( salary: "Salary KSH 50000",username: "Allan", house_id:canes_farm.id, attendant_id:allan_kush.id)
+Role.create( salary: "Salary KSH 30000",username: "Jane", house_id:tims_family.id, attendant_id:jane_lee.id)
+Role.create(salary: "Salary KSH 40000",username: "Cindy", house_id:jakes_house.id, attendant_id:cindy_amor.id)
 Role.create(salary: "Salary KSH 60000",username: "Cathy", house_id:IT_firm.id, attendant_id:cathy_lorna.id)
 
 
