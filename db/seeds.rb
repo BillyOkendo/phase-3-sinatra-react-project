@@ -13,10 +13,10 @@ canes_farm = House.create(name: "canes farm")
 jakes_house = House.create(name: "jakes house")
 
 puts "Creating attendants..."
-allan_kush = Attendant.create(username: "Allan Kush", salary:"Salary KSH 50000",job:"Gardener", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
-jane_lee = Attendant.create(username: "Jane Lee", salary:"Salary KSH 30000", job:"Cook", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s" )
-cindy_amor = Attendant.create(username: "Cindy Amor", salary:"Salary KSH 20000", job:"Nanny", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
-cathy_lorna = Attendant.create(username: "Cathy Lorna", salary:"Salary KSH 60000", job:"Cleaner", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
+allan_kush = Attendant.create(username: "Allan Kush", salary:"Salary KSH 50000",job:"Gardener", image:"https://www.freeiconspng.com/thumbs/human-icon-png/person-outline-icon-png-person-outline-icon-png-person-17.png")
+jane_lee = Attendant.create(username: "Jane Lee", salary:"Salary KSH 30000", job:"Cook", image:"https://www.freeiconspng.com/thumbs/human-icon-png/person-outline-icon-png-person-outline-icon-png-person-17.png" )
+cindy_amor = Attendant.create(username: "Cindy Amor", salary:"Salary KSH 20000", job:"Nanny", image:"https://www.freeiconspng.com/thumbs/human-icon-png/person-outline-icon-png-person-outline-icon-png-person-17.png")
+cathy_lorna = Attendant.create(username: "Cathy Lorna", salary:"Salary KSH 60000", job:"Cleaner", image:"https://www.freeiconspng.com/thumbs/human-icon-png/person-outline-icon-png-person-outline-icon-png-person-17.png")
 
 puts "Creating roles..."
 
